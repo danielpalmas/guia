@@ -1,9 +1,8 @@
-site_name: Guia PDTIC v2.1 Tocantins
+site_name: Guia PDTIC Tocantins
+docs_dir: docs
+site_dir: site
 theme: material
-plugins:
-  - pdf-export:
-      verbose: true
+plugins: [pdf-export]
 nav:
-  - Home: index.md
-  - Visão Geral:
-    - 3.4 Importância: 03-visao-geral/04-importancia-planejamento.md
+  - Início: index.md
+  - Visão Geral: 03-visao-geral/
