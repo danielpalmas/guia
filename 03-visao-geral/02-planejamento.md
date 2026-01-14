@@ -1,20 +1,26 @@
-\# 3.1 - O SISP
+\# 3.2 - PLANEJAMENTO
 
 
 
-O Sistema de Administração dos Recursos de Tecnologia da Informação (SISP) organiza, em nível federal, a forma como os órgãos planejam, coordenam, executam e controlam o uso de recursos de TIC. Sua criação buscou dar mais integração, padronização e racionalidade às iniciativas de tecnologia na Administração Pública Federal.
+Planejamento pode ser entendido como a preparação deliberada para agir de forma mais eficaz no futuro. Em vez de reagir apenas a eventos à medida que ocorrem, a organização analisa o contexto, define objetivos e escolhe antecipadamente os caminhos que pretende seguir.
 
 
 
-O SISP foi instituído por decreto e atualmente é regido pelo Decreto nº 7.579, de 11 de outubro de 2011, que define sua finalidade e estrutura. Entre os objetivos do sistema estão assegurar suporte de informação adequado ao governo, promover a integração entre programas e projetos, estimular o uso racional dos recursos de TIC e incentivar o desenvolvimento e a padronização de serviços e soluções.
+Ao planejar, a instituição reduz incertezas, organiza informações sobre o ambiente interno e externo e estabelece prioridades. Isso envolve definir metas, identificar recursos disponíveis, avaliar riscos e escolher estratégias e ações que aumentem a probabilidade de alcançar os resultados desejados.
 
 
 
-Integram o SISP o órgão central, representado pela Secretaria de Governo Digital do Ministério responsável pela política de governo digital, os órgãos setoriais (unidades de TIC de ministérios e órgãos da Presidência), os órgãos seccionais (unidades de TIC de autarquias e fundações) e os órgãos correlatos, que são unidades desconcentradas formalmente constituídas para tratar de TIC. A participação de empresas públicas e sociedades de economia mista pode ser facultativa, mediante termo específico.
+As técnicas de planejamento ajudam a compreender a situação atual, projetar cenários, formular objetivos e metas, selecionar indicadores e desenhar iniciativas. Em termos práticos, planejar significa orientar ações presentes e futuras, de modo coerente com a missão institucional e com as demandas da sociedade.
 
 
 
-Ao aderir às diretrizes do SISP, os órgãos passam a contar com orientações, modelos e documentos de referência para planejamento, contratação, governança e gestão de TIC. O Guia de PDTIC do SISP é um desses instrumentos, oferecendo um roteiro comum para que cada instituição elabore seu plano de forma alinhada às políticas de governo digital e às boas práticas recomendadas.
+Um bom planejamento oferece maior segurança às decisões, diminui a margem de erro e favorece o uso mais racional de recursos. Ele também facilita a coordenação entre diferentes áreas da organização, evita esforços duplicados e torna mais transparente a relação entre o que foi planejado e o que foi efetivamente executado.
+
+
+
+No contexto do Guia de PDTIC do SISP, o planejamento é a base conceitual para compreender o papel do PDTIC: o plano consolida decisões estratégicas e táticas para a área de TIC, traduzindo-as em ações estruturadas e passíveis de acompanhamento ao longo do tempo.
+
+
 
 
 
