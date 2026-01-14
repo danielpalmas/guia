@@ -1,0 +1,42 @@
+name: Build PDF Guia PDTIC
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:  # Permite rodar manualmente
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Instalar Pandoc e LaTeX
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc texlive-latex-extra texlive-fonts-recommended texlive-lang-portuguese
+        
+    - name: Criar PDF
+      run: |
+        mkdir -p build
+        pandoc README.md \
+          --from=markdown \
+          --to=pdf \
+          --output=build/Guia-PDTIC-v2.1-Tocantins.pdf \
+          --pdf-engine=pdflatex \
+          -V documentclass=article \
+          -V geometry:margin=2cm \
+          -V mainfont="Latin Modern Roman"
+          
+    - name: Upload PDF como Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: Guia-PDTIC-v2.1-Tocantins
+        path: build/Guia-PDTIC-v2.1-Tocantins.pdf
+        
+    - name: Commit PDF de volta (opcional)
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add build/Guia-PDTIC-v2.1-Tocantins.pdf
+        git commit -m "🤖 auto: gerar PDF v2.1 Tocantins" || exit 0
+        git push
