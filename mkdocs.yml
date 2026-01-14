@@ -1,8 +1,5 @@
 site_name: Guia PDTIC Tocantins
 docs_dir: docs
-site_dir: site
 theme: material
-plugins: [pdf-export]
 nav:
-  - Início: index.md
-  - Visão Geral: 03-visao-geral/
+  - Home: index.md
