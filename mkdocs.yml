@@ -1,5 +1,22 @@
-site_name: Guia PDTIC Tocantins
+site_name: Guia PDTIC v2.1 Tocantins
+theme:
+  name: material
+
 docs_dir: docs
-theme: material
+
 nav:
   - Home: index.md
+  - 1 Apresentação:
+      - Apresentação: 01-apresentacao/index.md
+  - 2 Introdução:
+      - Introdução: 02-introducao/index.md
+  - 3 Visão Geral:
+      - 3.1 O SISP: 03-visao-geral/01-o-sisp.md
+      - 3.2 Planejamento: 03-visao-geral/02-planejamento.md
+      - 3.3 Planejamento de TIC: 03-visao-geral/03-planejamento-tic.md
+      - 3.4 Importância do Planejamento: 03-visao-geral/04-importancia-planejamento.md
+  # continue listando as demais seções/arquivos...
+plugins:
+  - search
+  - with-pdf:
+      output_path: pdf/document.pdf
